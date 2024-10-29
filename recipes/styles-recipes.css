@@ -1,0 +1,40 @@
+body{
+    background-color:bisque;
+    color:hsl(216, 100%, 30%);
+    font-family:sans-serif;
+    margin: 25px;
+    font-size:1em;
+}
+
+h1{
+    font-size:2em;
+    text-decoration:underline;
+}
+
+h2{
+    font-size:1.5em;
+    text-decoration:underline;
+}
+
+ul li, ol li, p{
+    font-size:1.2em;
+}
+
+img{
+    border-radius:8px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+a{
+    color:hsla(216, 100%, 30%);
+    text-decoration:none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color:hsla(216, 100%, 50%);
+}
+
+a:active{
+    color:hsla(216, 100%, 70%);
+}
